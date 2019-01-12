@@ -1,10 +1,10 @@
-import { ShoppingCartService } from './shopping-cart.service';
-import { ProductService } from './product.service';
-import { CategoryService } from './category.service';
-import { AdminAuthGuard } from './admin-auth-guard.service';
-import { UserService } from './user.service';
-import { AuthGuard } from './auth-guard.service';
-import { AuthService } from './auth.service';
+import { ShoppingCartService } from './services/shopping-cart.service';
+import { ProductService } from './services/product.service';
+import { CategoryService } from './services/category.service';
+import { AdminAuthGuard } from './services/admin-auth-guard.service';
+import { UserService } from './services/user.service';
+import { AuthGuard } from './services/auth-guard.service';
+import { AuthService } from './services/auth.service';
 import { environment } from './../environments/environment';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
